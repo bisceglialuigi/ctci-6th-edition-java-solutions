@@ -84,10 +84,6 @@ public class A_1_1_IsUnique {
     }
 
     /*
-        MORE SOLUTIONS
-     */
-
-    /*
         Time Complexity: O(n^2)
         Space Complexity: O(1)
      */
