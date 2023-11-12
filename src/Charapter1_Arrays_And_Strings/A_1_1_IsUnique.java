@@ -64,7 +64,7 @@ public class A_1_1_IsUnique {
         Constraint:  What if you can not use additional data structure?
 
         Time Complexity: O(n log n)
-        Space Complexity: O(1)
+        Space Complexity: O(n)
      */
     public static boolean solution2(String word){
         if(word.length() == 0){
