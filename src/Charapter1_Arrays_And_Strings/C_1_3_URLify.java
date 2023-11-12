@@ -33,7 +33,7 @@ public class C_1_3_URLify {
 
     /*
         Time Complexity: O(n)
-        Space Complexity: O(1)
+        Space Complexity: O(n)
 
      */
     public static char[] solution1(String word, int trueLength){
