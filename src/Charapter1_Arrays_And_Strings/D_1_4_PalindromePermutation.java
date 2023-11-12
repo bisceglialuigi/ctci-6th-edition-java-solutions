@@ -17,14 +17,15 @@ public class D_1_4_PalindromePermutation {
      */
     public static void main(String[] args) {
         D_1_4_PalindromePermutation palindromePermutation = new D_1_4_PalindromePermutation();
-        HashSet<String> phraseSet = new HashSet<>();
-        phraseSet.add("Taco cat"); // true
-        phraseSet.add("I topi non avevano nipoti"); // true
-        phraseSet.add("This phrase is definitely not palindrome"); // false
-        phraseSet.add(""); // false
+        String[] phrases = new String[]{
+                "Taco cat", // true
+                "I topi non avevano nipoti", // true
+                "This phrase is definitely not palindrome", // false
+                "" // false
+        };
 
         StringBuilder stringBuilder;
-        for(String phrase : phraseSet){
+        for(String phrase : phrases){
             stringBuilder = new StringBuilder();
             stringBuilder.append("Phrase: ");
             stringBuilder.append(phrase);
