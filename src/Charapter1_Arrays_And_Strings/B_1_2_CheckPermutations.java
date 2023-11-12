@@ -75,7 +75,7 @@ public class B_1_2_CheckPermutations {
         Time Complexity: O(n log n)
         Space Complexity: O(1)
 
-        Hypothesis: letter a-z
+        Hypothesis: letters a-z
      */
 
     public static boolean solution2(String wordA, String wordB){
