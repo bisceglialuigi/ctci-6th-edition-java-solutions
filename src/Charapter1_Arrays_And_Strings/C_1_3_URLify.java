@@ -32,7 +32,7 @@ public class C_1_3_URLify {
     }
 
     /*
-        Time Complexity: O(N)
+        Time Complexity: O(n)
         Space Complexity: O(1)
 
      */
