@@ -39,6 +39,10 @@ public class D_1_5_OneWay {
         System.out.println(stringBuilder);
     }
 
+    /*
+        Time Complexity: O(n)
+        Space Complexity: O(n)
+     */
     public boolean solution1(String wordA, String wordB){
         if(wordA.length() - wordB.length() > 1 || wordB.length() - wordA.length() > 1){
             return false;
