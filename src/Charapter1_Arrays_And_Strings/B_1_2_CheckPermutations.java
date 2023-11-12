@@ -73,7 +73,7 @@ public class B_1_2_CheckPermutations {
 
     /*
         Time Complexity: O(n log n)
-        Space Complexity: O(1)
+        Space Complexity: O(n)
 
         Hypothesis: letters a-z
      */
