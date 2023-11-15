@@ -31,7 +31,6 @@ public class F_1_6_StringCompression {
     }
 
     public String solution1(String word){
-        // aabcccccaab -> a2b1c5a3
 
         if(word.length() == 0 || word.length() == 1 || word.length() == 2){
             return word;
