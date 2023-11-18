@@ -30,6 +30,11 @@ public class F_1_6_StringCompression {
         System.out.println(stringBuilder);
     }
 
+
+    /*
+        Time Complexity: O(n)
+        Space Complexity: O(n)
+     */
     public String solution1(String word){
 
         if(word.length() == 0 || word.length() == 1 || word.length() == 2){
