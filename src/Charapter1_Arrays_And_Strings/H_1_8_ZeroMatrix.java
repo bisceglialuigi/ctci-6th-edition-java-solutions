@@ -44,7 +44,7 @@ public class H_1_8_ZeroMatrix {
     }
 
     /*
-        Time Complexity: O(n^2)
+        Time Complexity: O(n*m)
         Space Complexity: O(n)
      */
     private int[][] solution(int[][] matrix){
