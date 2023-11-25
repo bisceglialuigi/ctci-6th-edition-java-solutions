@@ -5,7 +5,8 @@ For each Chapater I create a package specifing Chapter number and what is about.
 
 The name of each class follows this pattern: 
 **{letter}_{exercise number with _ as separator}_{pascal case exercise name}**.
-Ex: *F_1_7_RotateMatrix.java*
+
+**Ex:** *F_1_7_RotateMatrix.java*
 
 Feel free to submit a PR if you spot something wrong (I would be so thankful!)
 
