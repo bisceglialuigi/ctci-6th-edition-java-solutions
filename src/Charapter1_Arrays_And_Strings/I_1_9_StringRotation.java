@@ -14,7 +14,8 @@ public class I_1_9_StringRotation {
                 {"abcde", "deabc"},             // true
                 {"luigi", "gi"},                // false
                 {"matrix", "xmatria"},          // false
-                {"helloworld", "worldhello"}    // true
+                {"helloworld", "worldhello"},   // true
+                {"waterbottle", "erbottlewat"}  // true
         };
 
 
