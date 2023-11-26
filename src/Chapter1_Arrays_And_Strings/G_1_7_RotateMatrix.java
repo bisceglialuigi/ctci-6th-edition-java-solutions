@@ -1,4 +1,4 @@
-package Charapter1_Arrays_And_Strings;
+package Chapter1_Arrays_And_Strings;
 
 public class G_1_7_RotateMatrix {
     /**

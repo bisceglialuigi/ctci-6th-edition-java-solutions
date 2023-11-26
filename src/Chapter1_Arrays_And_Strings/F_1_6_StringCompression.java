@@ -1,6 +1,4 @@
-package Charapter1_Arrays_And_Strings;
-
-import java.util.*;
+package Chapter1_Arrays_And_Strings;
 
 public class F_1_6_StringCompression {
     /**
