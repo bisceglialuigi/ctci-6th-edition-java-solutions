@@ -8,12 +8,12 @@ import java.util.List;
 
 public class B_2_2_ReturnKthToLast {
     public static void main(String[] args) {
-        B_2_2_ReturnKthToLast b22ReturnKthToLast = new B_2_2_ReturnKthToLast();
+        B_2_2_ReturnKthToLast returnKthToLast = new B_2_2_ReturnKthToLast();
 
         LinkedList linkedList = new LinkedList();
         linkedList.initializeFromIntValues(new Integer[]{1,2,3,4,5});
 
-        linkedList = b22ReturnKthToLast.solution(linkedList, 4);
+        linkedList = returnKthToLast.solution(linkedList, 4);
         linkedList.printList();
     }
 
