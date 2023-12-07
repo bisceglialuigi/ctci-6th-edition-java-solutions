@@ -21,6 +21,18 @@ public class LinkedList {
         }
     }
 
+    public void insertNode(Node newNode){
+        Node currentNode = this.head;
+        if(currentNode != null){
+            while(currentNode.next != null){
+                currentNode = currentNode.next;
+            }
+            currentNode.next = newNode;
+        } else {
+            this.head = newNode;
+        }
+    }
+
     public void initializeFromIntValues(Integer[] intValues){
         for(int i=0; i<intValues.length; i++){
             this.insertNode(intValues[i]);
