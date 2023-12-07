@@ -8,4 +8,8 @@ public class Node {
         this.data = data;
         this.next = null;
     }
+
+    public void print(){
+        System.out.print("Node data: " + this.data);
+    }
 }
