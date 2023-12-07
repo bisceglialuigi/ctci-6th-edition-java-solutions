@@ -24,7 +24,7 @@ public class A_2_1_RemoveDups {
         for(int i=0; i<values.length; i++){
             LinkedList linkedList = new LinkedList();
             for(int j=0; j<values[i].length; j++){
-                linkedList.insertNode(linkedList, values[i][j]);
+                linkedList.insertNode(values[i][j]);
             }
             linkedList = removeDups.solution(linkedList);
             linkedList.printList();

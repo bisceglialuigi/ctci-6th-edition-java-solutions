@@ -7,19 +7,24 @@ public class LinkedList {
         return head;
     }
 
-    public LinkedList insertNode(LinkedList linkedList, int data){
+    public void insertNode(int data){
         Node newNode = new Node(data);
 
-        Node currentNode = linkedList.head;
+        Node currentNode = this.head;
         if(currentNode != null){
             while(currentNode.next != null){
                 currentNode = currentNode.next;
             }
             currentNode.next = newNode;
         } else {
-            linkedList.head = newNode;
+            this.head = newNode;
         }
-        return linkedList;
+    }
+
+    public void initializeFromIntValues(Integer[] intValues){
+        for(int i=0; i<intValues.length; i++){
+            this.insertNode(intValues[i]);
+        }
     }
 
     public void printList(){
