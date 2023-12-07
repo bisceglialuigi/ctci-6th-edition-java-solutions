@@ -1,4 +1,4 @@
-package Chapter1_Arrays_And_Strings;
+package Chapter1_ArraysAndStrings;
 
 public class I_1_9_StringRotation {
     /**
