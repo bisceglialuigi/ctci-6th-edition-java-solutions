@@ -10,9 +10,9 @@ public class A_3_1_ThreeInOne {
      */
     public static void main(String[] args) throws Exception {
 
-        int STACK_NUMBER = 3;
+        int STACK_SIZES = 3;
 
-        A_3_1_ThreeInOne threeInOne = new A_3_1_ThreeInOne(STACK_NUMBER);
+        A_3_1_ThreeInOne threeInOne = new A_3_1_ThreeInOne(STACK_SIZES);
 
         threeInOne.push(0,1);
         threeInOne.push(0,2);
