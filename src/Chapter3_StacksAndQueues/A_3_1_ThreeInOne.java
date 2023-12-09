@@ -4,6 +4,9 @@ public class A_3_1_ThreeInOne {
 
     /**
      *  Describe how you could use a single array to implement three stacks.
+     *
+     *  My assumptions:
+     *      - fixed size stacks
      */
     public static void main(String[] args) throws Exception {
 
@@ -36,9 +39,6 @@ public class A_3_1_ThreeInOne {
         threeInOne.pop(2);
         threeInOne.pop(2);
         threeInOne.pop(2);
-
-        threeInOne.printArray();
-
     }
 
     final int STACKS_NUMBER = 3;
@@ -97,7 +97,7 @@ public class A_3_1_ThreeInOne {
 
         topPointers[stackNumber]--;
         int popElement = stackArray[topPointers[stackNumber]];
-        stackArray[topPointers[stackNumber]] = -1;
+        System.out.print("Popped: " + popElement + "\n");
 
         return popElement;
     }
@@ -115,6 +115,7 @@ public class A_3_1_ThreeInOne {
             stringBuilder.append(stackArray[i]);
             stringBuilder.append(", ");
         }
+        stringBuilder.append("\n");
         System.out.print(stringBuilder);
     }
 }
