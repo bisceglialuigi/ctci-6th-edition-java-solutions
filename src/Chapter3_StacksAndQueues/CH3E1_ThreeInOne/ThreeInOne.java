@@ -1,6 +1,6 @@
-package Chapter3_StacksAndQueues;
+package Chapter3_StacksAndQueues.CH3E1_ThreeInOne;
 
-public class A_3_1_ThreeInOne {
+public class ThreeInOne {
 
     /**
      *  Describe how you could use a single array to implement three stacks.
@@ -12,7 +12,7 @@ public class A_3_1_ThreeInOne {
 
         int STACK_SIZES = 3;
 
-        A_3_1_ThreeInOne threeInOne = new A_3_1_ThreeInOne(STACK_SIZES);
+        ThreeInOne threeInOne = new ThreeInOne(STACK_SIZES);
 
         threeInOne.push(0,1);
         threeInOne.push(0,2);
@@ -47,7 +47,7 @@ public class A_3_1_ThreeInOne {
     int[] firstElementPointers;
     int[] lastElementPointers;
 
-    public A_3_1_ThreeInOne(int stackSize){
+    public ThreeInOne(int stackSize){
         stackArray = new int[stackSize * STACKS_NUMBER];
         initializeTopPointers();
         initializeFirstElementPointers();

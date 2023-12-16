@@ -1,8 +1,8 @@
-package Chapter3_StacksAndQueues;
+package Chapter3_StacksAndQueues.CH3E2_StackMin;
 
-import Chapter3_StacksAndQueues.utils.StackWithMin;
+import Chapter3_StacksAndQueues.CH3E2_StackMin.utils.StackWithMin;
 
-public class B_3_2_StackMin {
+public class StackMin {
     /**
      *  How would you design a stack which, in addition to push and pop, has a function min which returns the
      *  minimum element? Push, pop and min should all operate in O(1) time.
