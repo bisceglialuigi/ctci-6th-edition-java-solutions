@@ -1,11 +1,11 @@
-package Chapter2_LinkedLists;
+package Chapter2_LinkedLists.E3_DeleteMiddleNode;
 
 import Chapter2_LinkedLists.utils.LinkedList;
 import Chapter2_LinkedLists.utils.Node;
 
-public class C_2_3_DeleteMiddleNode {
+public class DeleteMiddleNode {
     public static void main(String[] args) {
-        C_2_3_DeleteMiddleNode c23DeleteMiddleNode = new C_2_3_DeleteMiddleNode();
+        DeleteMiddleNode c23DeleteMiddleNode = new DeleteMiddleNode();
 
         LinkedList linkedList = new LinkedList();
         linkedList.initializeFromIntValues(new Integer[]{1,2,3,4,5});

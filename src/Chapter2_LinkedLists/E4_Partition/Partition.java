@@ -1,4 +1,4 @@
-package Chapter2_LinkedLists;
+package Chapter2_LinkedLists.E4_Partition;
 
 import Chapter2_LinkedLists.utils.LinkedList;
 import Chapter2_LinkedLists.utils.Node;
@@ -6,7 +6,7 @@ import Chapter2_LinkedLists.utils.Node;
 import java.util.ArrayList;
 import java.util.List;
 
-public class D_2_4_Partition {
+public class Partition {
     /**
      *  Write code to partition a linked list around a value x, such that all nodes less than x come before
      *  all nodes greater than or equal to x. (IMPORTANT: The partition element x can appear anywhere int the
@@ -17,7 +17,7 @@ public class D_2_4_Partition {
      *  Output:     3 -> 1 -> 2     ->      10 -> 5 -> 5 -> 8
      */
     public static void main(String[] args) {
-        D_2_4_Partition d24Partition = new D_2_4_Partition();
+        Partition d24Partition = new Partition();
         LinkedList linkedList = new LinkedList();
         linkedList.initializeFromIntValues(new Integer[]{3,5,8,5,10,2,1});
         linkedList = d24Partition.solution(linkedList, 5);

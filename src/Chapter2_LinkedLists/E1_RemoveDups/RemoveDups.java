@@ -1,11 +1,11 @@
-package Chapter2_LinkedLists;
+package Chapter2_LinkedLists.E1_RemoveDups;
 
 import Chapter2_LinkedLists.utils.LinkedList;
 import Chapter2_LinkedLists.utils.Node;
 
 import java.util.HashSet;
 
-public class A_2_1_RemoveDups {
+public class RemoveDups {
 
     /**
      * Write code to remove duplicates from unsorted linked list.
@@ -13,7 +13,7 @@ public class A_2_1_RemoveDups {
      * How would you solve this problem if a temporary buffer is not allowed?
      */
     public static void main(String[] args) {
-        A_2_1_RemoveDups removeDups = new A_2_1_RemoveDups();
+        RemoveDups removeDups = new RemoveDups();
 
         int[][] values = new int[][]{
                 {1,2,3,4},

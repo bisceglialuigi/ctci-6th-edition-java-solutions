@@ -1,4 +1,4 @@
-package Chapter2_LinkedLists;
+package Chapter2_LinkedLists.E2_ReturnKthToLast;
 
 import Chapter2_LinkedLists.utils.LinkedList;
 import Chapter2_LinkedLists.utils.Node;
@@ -6,9 +6,9 @@ import Chapter2_LinkedLists.utils.Node;
 import java.util.ArrayList;
 import java.util.List;
 
-public class B_2_2_ReturnKthToLast {
+public class ReturnKthToLast {
     public static void main(String[] args) {
-        B_2_2_ReturnKthToLast returnKthToLast = new B_2_2_ReturnKthToLast();
+        ReturnKthToLast returnKthToLast = new ReturnKthToLast();
 
         LinkedList linkedList = new LinkedList();
         linkedList.initializeFromIntValues(new Integer[]{1,2,3,4,5});

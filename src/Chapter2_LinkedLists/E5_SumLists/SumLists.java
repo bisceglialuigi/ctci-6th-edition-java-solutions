@@ -1,9 +1,9 @@
-package Chapter2_LinkedLists;
+package Chapter2_LinkedLists.E5_SumLists;
 
 import Chapter2_LinkedLists.utils.LinkedList;
 import Chapter2_LinkedLists.utils.Node;
 
-public class E_2_5_SumLists {
+public class SumLists {
     /**
      * You have two numbers represented by a linked list, where each node contains a single
      * digit. The digits are stored in reverse order, such that the 1's digit is at the head of the list. Write a
@@ -18,7 +18,7 @@ public class E_2_5_SumLists {
      * Output: 9->1->2. That is, 912.
      */
     public static void main(String[] args) {
-        E_2_5_SumLists e25SumLists = new E_2_5_SumLists();
+        SumLists e25SumLists = new SumLists();
         LinkedList firstLinkedList = new LinkedList();
         LinkedList secondLinkedList = new LinkedList();
 

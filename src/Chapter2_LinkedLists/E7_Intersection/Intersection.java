@@ -1,16 +1,16 @@
-package Chapter2_LinkedLists;
+package Chapter2_LinkedLists.E7_Intersection;
 
 import Chapter2_LinkedLists.utils.LinkedList;
 import Chapter2_LinkedLists.utils.Node;
 
-public class G_2_7_Intersection {
+public class Intersection {
     /**
      *  Given two singly linked list, determine if two lists intersect. Return the intersecting node. Note that
      *  the intersection is defined based on reference, not value. That is, if the kth node of the first linked list is
      *  the exact same node (by reference) as the jth node of the second linked list, then they are intersecting.
      */
     public static void main(String[] args) throws Exception {
-        G_2_7_Intersection intersection = new G_2_7_Intersection();
+        Intersection intersection = new Intersection();
 
         Node commonNode = new Node(7);
 

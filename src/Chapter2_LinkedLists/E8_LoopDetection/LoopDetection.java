@@ -1,11 +1,11 @@
-package Chapter2_LinkedLists;
+package Chapter2_LinkedLists.E8_LoopDetection;
 
 import Chapter2_LinkedLists.utils.LinkedList;
 import Chapter2_LinkedLists.utils.Node;
 
 import java.util.HashSet;
 
-public class H_2_8_LoopDetection {
+public class LoopDetection {
 
     /**
      *  Given a linked list which might contain a loop, implement an algoruthm that returns the node at the
@@ -15,7 +15,7 @@ public class H_2_8_LoopDetection {
      *  Output: C
      */
     public static void main(String[] args) throws Exception {
-        H_2_8_LoopDetection loopDetection = new H_2_8_LoopDetection();
+        LoopDetection loopDetection = new LoopDetection();
 
         LinkedList linkedList = new LinkedList();
 

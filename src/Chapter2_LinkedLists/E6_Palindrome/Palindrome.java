@@ -1,16 +1,16 @@
-package Chapter2_LinkedLists;
+package Chapter2_LinkedLists.E6_Palindrome;
 
 import Chapter2_LinkedLists.utils.LinkedList;
 import Chapter2_LinkedLists.utils.Node;
 
 import java.util.ArrayList;
 
-public class F_2_6_Palindrome {
+public class Palindrome {
     /**
      *  Implement a function to check if a linked list is palindrome.
      */
     public static void main(String[] args) {
-        F_2_6_Palindrome f26Palindrome = new F_2_6_Palindrome();
+        Palindrome f26Palindrome = new Palindrome();
         Integer[][] solutions = new Integer[][]{
             new Integer[]{0,1,2,1,0},               // true
             new Integer[]{0,1,2,2,2},               // false
