@@ -1,4 +1,4 @@
-package Chapter3_StacksAndQueues.E2_StackMin.utils;
+package Chapter3_StacksAndQueues.E2_StackMin;
 
 public class StackNode {
     int data;

@@ -1,7 +1,5 @@
 package Chapter3_StacksAndQueues.E2_StackMin;
 
-import Chapter3_StacksAndQueues.E2_StackMin.utils.StackWithMin;
-
 public class StackMin {
     /**
      *  How would you design a stack which, in addition to push and pop, has a function min which returns the
