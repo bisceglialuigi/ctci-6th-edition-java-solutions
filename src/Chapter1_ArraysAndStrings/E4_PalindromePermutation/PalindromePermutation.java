@@ -1,8 +1,8 @@
-package Chapter1_ArraysAndStrings;
+package Chapter1_ArraysAndStrings.E4_PalindromePermutation;
 
 import java.util.HashMap;
 
-public class D_1_4_PalindromePermutation {
+public class PalindromePermutation {
     /*
         Given a string, write a function to check if it is a permutation of palindrome. A palindrome
         is a phrase that is the same forwards or backwards. A permutation is a rearrangement of letters.
@@ -14,7 +14,7 @@ public class D_1_4_PalindromePermutation {
         OUTPUT: True (because "tact coa" is a permutation of "taco cat", "atco cta", etc.)
      */
     public static void main(String[] args) {
-        D_1_4_PalindromePermutation palindromePermutation = new D_1_4_PalindromePermutation();
+        PalindromePermutation palindromePermutation = new PalindromePermutation();
         String[] phrases = new String[]{
                 "Taco cat", // true
                 "I topi non avevano nipoti", // true

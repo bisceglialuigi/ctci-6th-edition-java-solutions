@@ -1,8 +1,8 @@
-package Chapter1_ArraysAndStrings;
+package Chapter1_ArraysAndStrings.E8_ZeroMatrix;
 
 import java.util.HashSet;
 
-public class H_1_8_ZeroMatrix {
+public class ZeroMatrix {
 
     /**
      * Write an algorithm such that if an element in an MxN matrix is 0, its entire row
@@ -10,7 +10,7 @@ public class H_1_8_ZeroMatrix {
      */
 
     public static void main(String[] args) {
-        H_1_8_ZeroMatrix zeroMatrix = new H_1_8_ZeroMatrix();
+        ZeroMatrix zeroMatrix = new ZeroMatrix();
         int[][][] matrixes = new int[][][]{
                 {
                     {1,0},

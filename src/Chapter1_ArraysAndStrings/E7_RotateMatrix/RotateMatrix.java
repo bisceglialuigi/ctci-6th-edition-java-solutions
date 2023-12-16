@@ -1,13 +1,13 @@
-package Chapter1_ArraysAndStrings;
+package Chapter1_ArraysAndStrings.E7_RotateMatrix;
 
-public class G_1_7_RotateMatrix {
+public class RotateMatrix {
     /**
      * Given an image represented by an NxN matrix, where each pixel in the image is
      * represented by an integer, write a method to rotate by 90 degrees. Can you do this in place?
      */
 
     public static void main(String[] args) {
-        G_1_7_RotateMatrix rotateMatrix = new G_1_7_RotateMatrix();
+        RotateMatrix rotateMatrix = new RotateMatrix();
 
         int[][][] matrixes = new int[][][]{
             {

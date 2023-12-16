@@ -1,9 +1,9 @@
-package Chapter1_ArraysAndStrings;
+package Chapter1_ArraysAndStrings.E2_CheckPermutations;
 
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class B_1_2_CheckPermutations {
+public class CheckPermutations {
     /*
         Given two strings, write a method to decide if one is a permutation of the other.
      */

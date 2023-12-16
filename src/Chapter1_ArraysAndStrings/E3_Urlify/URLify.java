@@ -1,9 +1,9 @@
-package Chapter1_ArraysAndStrings;
+package Chapter1_ArraysAndStrings.E3_Urlify;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class C_1_3_URLify {
+public class URLify {
 
     /*
         Write a method to replace all spaces in a string with '%20'. You may assume that the string has

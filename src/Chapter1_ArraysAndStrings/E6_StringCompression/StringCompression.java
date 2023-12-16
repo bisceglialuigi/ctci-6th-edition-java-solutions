@@ -1,6 +1,6 @@
-package Chapter1_ArraysAndStrings;
+package Chapter1_ArraysAndStrings.E6_StringCompression;
 
-public class F_1_6_StringCompression {
+public class StringCompression {
     /**
      * Implement a method to perform basic string compression using the counts
      * of repeated characters. For example, the string aabcccccaaa would become
@@ -8,7 +8,7 @@ public class F_1_6_StringCompression {
      * original string, your method should return the original string.
      */
     public static void main(String[] args) {
-        F_1_6_StringCompression stringCompression = new F_1_6_StringCompression();
+        StringCompression stringCompression = new StringCompression();
         String[] words = new String[]{
                 "aabcccccaab",
                 "aabcccccaaa",

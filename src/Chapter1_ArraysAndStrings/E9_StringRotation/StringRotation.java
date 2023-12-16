@@ -1,6 +1,6 @@
-package Chapter1_ArraysAndStrings;
+package Chapter1_ArraysAndStrings.E9_StringRotation;
 
-public class I_1_9_StringRotation {
+public class StringRotation {
     /**
      *  Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings,
      *  s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring
@@ -8,7 +8,7 @@ public class I_1_9_StringRotation {
      */
 
     public static void main(String[] args) {
-        I_1_9_StringRotation stringRotation = new I_1_9_StringRotation();
+        StringRotation stringRotation = new StringRotation();
 
         String[][] stringCouples = new String[][]{
                 {"abcde", "deabc"},             // true

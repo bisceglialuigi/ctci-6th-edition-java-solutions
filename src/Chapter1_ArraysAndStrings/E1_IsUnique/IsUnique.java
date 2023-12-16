@@ -1,9 +1,9 @@
-package Chapter1_ArraysAndStrings;
+package Chapter1_ArraysAndStrings.E1_IsUnique;
 
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class A_1_1_IsUnique {
+public class IsUnique {
 
    /*
        Implement an algorithm to determine if a string has all unique characters.
