@@ -1,6 +1,6 @@
-package Chapter3_StacksAndQueues.CH3E2_StackMin;
+package Chapter3_StacksAndQueues.E2_StackMin;
 
-import Chapter3_StacksAndQueues.CH3E2_StackMin.utils.StackWithMin;
+import Chapter3_StacksAndQueues.E2_StackMin.utils.StackWithMin;
 
 public class StackMin {
     /**

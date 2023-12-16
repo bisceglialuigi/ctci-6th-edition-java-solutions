@@ -1,4 +1,4 @@
-package Chapter3_StacksAndQueues.CH3E2_StackMin.utils;
+package Chapter3_StacksAndQueues.E2_StackMin.utils;
 
 public class MyStack {
     public StackNode top;

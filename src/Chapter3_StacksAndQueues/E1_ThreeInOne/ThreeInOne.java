@@ -1,4 +1,4 @@
-package Chapter3_StacksAndQueues.CH3E1_ThreeInOne;
+package Chapter3_StacksAndQueues.E1_ThreeInOne;
 
 public class ThreeInOne {
 

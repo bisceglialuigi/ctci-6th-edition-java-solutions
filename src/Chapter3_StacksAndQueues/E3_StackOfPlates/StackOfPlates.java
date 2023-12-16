@@ -1,4 +1,4 @@
-package Chapter3_StacksAndQueues.CH3E3_StackOfPlates;
+package Chapter3_StacksAndQueues.E3_StackOfPlates;
 
 public class StackOfPlates {
     /**
