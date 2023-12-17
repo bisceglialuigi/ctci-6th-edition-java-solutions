@@ -68,6 +68,9 @@ public class MyQueue {
         return null;
     }
 
+    /*
+        Time Complexity: O(n)
+     */
     public void print(){
         StringBuilder stringBuilder = new StringBuilder();
         Animal current = top;
