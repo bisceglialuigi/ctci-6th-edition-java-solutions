@@ -26,7 +26,24 @@ public class MyStack {
         return data;
     }
 
+    public Integer peek(){
+        if(isEmpty())
+            return null;
+        int data = top.data;
+        return data;
+    }
+
     public boolean isEmpty(){
         return top == null;
+    }
+
+    public void print(){
+        MyNode current = top;
+        StringBuilder stringBuilder = new StringBuilder();
+        while(current != null){
+            stringBuilder.append(current.data + ", ");
+            current = current.next;
+        }
+        System.out.println(stringBuilder);
     }
 }
