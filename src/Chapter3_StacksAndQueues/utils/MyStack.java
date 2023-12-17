@@ -1,4 +1,4 @@
-package Chapter3_StacksAndQueues.E4_QueueViaStacks;
+package Chapter3_StacksAndQueues.utils;
 
 public class MyStack {
     public class MyNode{

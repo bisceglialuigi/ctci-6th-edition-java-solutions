@@ -1,5 +1,7 @@
 package Chapter3_StacksAndQueues.E4_QueueViaStacks;
 
+import Chapter3_StacksAndQueues.utils.MyStack;
+
 public class MyQueue {
 
 
