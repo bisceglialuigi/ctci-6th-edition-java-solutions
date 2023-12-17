@@ -4,9 +4,6 @@ public class MyQueue {
     Animal top;
     Animal bottom;
 
-    // enqueue, dequeueAny, dequeueDog, and dequeueCat
-
-
     /*
         Time Complexity: O(1)
      */
