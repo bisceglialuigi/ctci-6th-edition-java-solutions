@@ -1,11 +1,9 @@
 package Chapter4_TreesAndGraphs.E1_RouteBetweenNodes;
 
-import Chapter4_TreesAndGraphs.utils.Node;
+import Chapter4_TreesAndGraphs.E1_RouteBetweenNodes.utils.Node;
 
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 
 public class RouteBetweenNodes {
 
